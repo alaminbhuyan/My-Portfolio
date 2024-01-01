@@ -736,7 +736,13 @@ section .container {
 .services .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 20px;
+}
+/* This cond I add */
+.services .icon-box h5 {
+  font-weight: 700;
+  font-size: 15px;
+  color: #FF5733;
 }
 
 .services .icon-box h4 a {
@@ -766,7 +772,7 @@ section .container {
   background: #35e888;
 }
 
-.services .icon-box:hover h4 a,
+.services .icon-box:hover h5, .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
   color: #fff;
 }
